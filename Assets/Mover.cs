@@ -14,8 +14,13 @@ public class Mover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float xValue = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
-        float zValue = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
-        transform.Translate(xValue, 0, zValue);
+        TranslateFreeXZ(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"), moveSpeed);
+    }
+    public void TranslateFreeXZ(float x, float y, float z, float moveSpeed)
+    {
+        float xValue = x * Time.deltaTime * moveSpeed;
+        float yValue = y * Time.deltaTime * moveSpeed;
+        float zValue = z * Time.deltaTime * moveSpeed;
+        transform.Translate(xValue, yValue, zValue);
     }
 }
