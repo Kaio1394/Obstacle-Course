@@ -13,13 +13,13 @@ public class Mover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        TranslateFreeXZ(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"), moveSpeed);
+        MoverPlayer();
     }
-    public void TranslateFreeXZ(float x, float y, float z, float moveSpeed)
+    void MoverPlayer()
     {
-        float xValue = x * Time.deltaTime * moveSpeed;
-        float yValue = y * Time.deltaTime * moveSpeed;
-        float zValue = z * Time.deltaTime * moveSpeed;
-        transform.Translate(xValue, yValue, zValue);
+        // Moving in axis XZ. Not Y.
+        float xValue = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
+        float zValue = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
+        transform.Translate(xValue, 0, zValue);
     }
 }
