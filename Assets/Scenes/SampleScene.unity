@@ -296,6 +296,7 @@ GameObject:
   - component: {fileID: 647746022}
   - component: {fileID: 647746021}
   - component: {fileID: 647746020}
+  - component: {fileID: 647746024}
   m_Layer: 0
   m_Name: Wall peace
   m_TagString: Untagged
@@ -379,6 +380,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &647746024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647746019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e64e39a0820894590ff67cb08cb2df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,6 +497,7 @@ GameObject:
   - component: {fileID: 849674638}
   - component: {fileID: 849674637}
   - component: {fileID: 849674636}
+  - component: {fileID: 849674640}
   m_Layer: 0
   m_Name: Wall peace (3)
   m_TagString: Untagged
@@ -567,6 +581,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &849674640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849674635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e64e39a0820894590ff67cb08cb2df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -793,6 +819,7 @@ GameObject:
   - component: {fileID: 1318728184}
   - component: {fileID: 1318728183}
   - component: {fileID: 1318728182}
+  - component: {fileID: 1318728186}
   m_Layer: 0
   m_Name: Wall peace (2)
   m_TagString: Untagged
@@ -876,6 +903,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1318728186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318728181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e64e39a0820894590ff67cb08cb2df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1402985848
 GameObject:
   m_ObjectHideFlags: 0
@@ -1014,6 +1053,7 @@ GameObject:
   - component: {fileID: 1635449638}
   - component: {fileID: 1635449637}
   - component: {fileID: 1635449636}
+  - component: {fileID: 1635449640}
   m_Layer: 0
   m_Name: Wall peace (1)
   m_TagString: Untagged
@@ -1097,3 +1137,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1635449640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635449635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e64e39a0820894590ff67cb08cb2df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
