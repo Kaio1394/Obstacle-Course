@@ -11,7 +11,7 @@ public class ColliderObstacle : MonoBehaviour
         renderer = GetComponent<MeshRenderer>();
         // Change color when hit the wall
         renderer.material.color = Color.red;
-
+        
         // Destroy a component
         //Destroy(gameObject);
     }
