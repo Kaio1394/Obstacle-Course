@@ -10,18 +10,17 @@ public class ObjectHit : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            renderer = GetComponent<MeshRenderer>();
-            // Change color when hit the wall
-            renderer.material.color = Color.red;
+           GetComponent<MeshRenderer>().material.color = Color.red;
+           gameObject.tag = "Hit";
         }
 
     }
     void Update()
     {
-        if (Time.time > 4)
-        {
-            GetComponent<BoxCollider>().enabled = false;
-        }
+        //if (Time.time > 4)
+        //{
+        //    GetComponent<BoxCollider>().enabled = false;
+        //}
     }
 
 }

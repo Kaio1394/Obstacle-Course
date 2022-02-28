@@ -182,7 +182,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 62605538}
-  m_LocalRotation: {x: 0.32857186, y: -0.000000016251068, z: 0.0000000056535345, w: 0.944479}
+  m_LocalRotation: {x: 0.32857186, y: 0.000000016251063, z: -0.000000005653532, w: 0.944479}
   m_LocalPosition: {x: 0.26, y: 3.8500001, z: -5.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -670,7 +670,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.32857186, y: -0.000000016251068, z: 0.0000000056535345, w: 0.944479}
+  m_LocalRotation: {x: 0.32857186, y: 0.000000016251063, z: -0.000000005653532, w: 0.944479}
   m_LocalPosition: {x: 0.26, y: 3.8500001, z: -5.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -801,7 +801,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049944534}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -932,7 +932,7 @@ GameObject:
   - component: {fileID: 1402985855}
   m_Layer: 0
   m_Name: Dodgy
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1317,7 +1317,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2052571625}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84f4dc5bf2ce58d4e9dec775dba89b4b, type: 3}
+  m_Script: {fileID: 11500000, guid: 83e64e39a0820894590ff67cb08cb2df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &2052571627
