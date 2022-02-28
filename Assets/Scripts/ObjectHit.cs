@@ -4,11 +4,24 @@ using UnityEngine;
 
 public class ObjectHit : MonoBehaviour
 {
+    new MeshRenderer renderer;
     // Show a message each hit in wall
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision other)
     {
-        // Change color when hit the wall
-        GetComponent<MeshRenderer>().material.color = Color.red;
+        if(other.gameObject.tag == "Player")
+        {
+            renderer = GetComponent<MeshRenderer>();
+            // Change color when hit the wall
+            renderer.material.color = Color.red;
+        }
+
     }
-    
+    void Update()
+    {
+        if (Time.time > 4)
+        {
+            GetComponent<BoxCollider>().enabled = false;
+        }
+    }
+
 }

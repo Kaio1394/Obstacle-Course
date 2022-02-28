@@ -13,11 +13,6 @@ public class Scorer : MonoBehaviour
             Debug.Log($"You've bumped into a thing this many times: {value}");
             value++;
         }
-        else
-        {
-            Debug.Log("Game over!!");
-            // Reste game
-            //SceneManager.LoadScene(0);
-        }
+
     }
 }
