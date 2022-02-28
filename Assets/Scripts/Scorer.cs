@@ -11,7 +11,7 @@ public class Scorer : MonoBehaviour
         if(value <= 4)
         {
             Debug.Log($"You've bumped into a thing this many times: {value}");
-            value++;
+            value++; 
         }
 
     }
