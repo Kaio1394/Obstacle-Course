@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class Scorer : MonoBehaviour
 {
-    private int value = 1;
+    private int value = 0;
     private void OnCollisionEnter(Collision collision)
     {
-        if(value <= 4)
+        if(collision.gameObject.tag != "Hit")
         {
-            Debug.Log($"You've bumped into a thing this many times: {value}");
             value++;
+            Debug.Log($"You've bumped into a thing this many times: {value}");
         }
 
     }

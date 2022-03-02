@@ -13,15 +13,16 @@ public class ObjectHit : MonoBehaviour
             renderer = GetComponent<MeshRenderer>();
             // Change color when hit the wall
             renderer.material.color = Color.red;
+            gameObject.tag = "Hit";
         }
 
     }
     void Update()
     {
-        if (Time.time > 4)
-        {
-            GetComponent<BoxCollider>().enabled = false;
-        }
+        //if (Time.time > 4)
+        //{
+        //    GetComponent<BoxCollider>().enabled = false;
+        //}
     }
 
 }
