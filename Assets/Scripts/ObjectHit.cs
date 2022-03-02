@@ -19,10 +19,7 @@ public class ObjectHit : MonoBehaviour
     }
     void Update()
     {
-        //if (Time.time > 4)
-        //{
-        //    GetComponent<BoxCollider>().enabled = false;
-        //}
+       
     }
 
 }

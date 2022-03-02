@@ -7,7 +7,6 @@ public class Spinner : MonoBehaviour
     [SerializeField] float xAngle = 0;
     [SerializeField] float yAngle = 1;
     [SerializeField] float zAngle = 0;
-
     // Update is called once per frame
     void Update()
     {

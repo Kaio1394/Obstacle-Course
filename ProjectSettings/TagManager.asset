@@ -4,6 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
+=======
+  - Obstacle
+>>>>>>> a4e50231ba9305df6e62e5b4a2b5cb1ff01b4c9c
   - Hit
   layers:
   - Default
